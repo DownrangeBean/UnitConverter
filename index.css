@@ -105,6 +105,8 @@ section {
 
 #conversion-input {
     width: fit-content;
+    min-width: 100rem;
+    padding: 2rem 10rem;
     margin: 10rem auto;
     text-align: center;
     background: none;
