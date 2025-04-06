@@ -1,0 +1,11 @@
+{
+    "name": "Unit Converter",
+    "short_name": "UnitConv",
+    "icons":
+        [
+            {"src":"/icon-ruler-100.png","sizes":"100x100","type":"image/png"},{"src":"/icon-ruler-50.png","sizes":"50x50","type":"image/png"}
+        ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
