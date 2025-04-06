@@ -18,9 +18,9 @@ function renderOutput(value) {
 }
 
 function renderLength(value) {
-    let meters = value * 0.3048;  // 1 foot = 0.3 meters
-    let feet = value * 3.28084;
-    lengthOutput.textContent = makeConversionString(value, 'meters', 'feet', meters, feet);
+    let celsius = (value - 32) / 1.8;  // 1 foot = 0.3 meters
+    let farenheit = (value * 1.8) + 32;
+    lengthOutput.textContent = makeConversionString(value, 'celsius', 'farenheit', celsius, farenheit);
 }
 
 function renderVolume(value) {
